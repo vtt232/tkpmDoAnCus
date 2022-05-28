@@ -201,7 +201,7 @@ function showResult() {
 	let i = 1
 	for (const file of fileAndPoint) {
 		var item = document.createElement('div')
-		item.appendChild(document.createTextNode(i.toString()+'/ '+file[0].toString()+' '+file[1].toString()))
+		item.appendChild(document.createTextNode(i.toString()+'/ '+file[0].toString()+' Point: '+file[1].toString()))
 		res.appendChild(item)
 		i+=1
 	}
